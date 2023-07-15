@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Tictactoe.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1> <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank" style="text-decoration: none;">Tic Tac Toe</a></h1>
+
+        <table>
+            <tr>
+                <td class="cell" id="0">0</td>
+                <td class="cell" id="1">1</td>
+                <td class="cell" id="2">2</td>
+            </tr>
+            <tr>
+                <td class="cell" id="3">3</td>
+                <td class="cell" id="4">4</td>
+                <td class="cell" id="5">5</td>
+            </tr>
+            <tr id="bottom">
+                <td class="cell" id="6">6</td>
+                <td class="cell" id="7">7</td>
+                <td class="cell" id="8">8</td>
+            </tr>
+        </table>
+        <div class="endgame">
+            <div class="text"></div>
+        </div>
+        <br>
+        <p id="scr">Score:</p>
+        <p id="count">0</p>
+        <button id="ply-btn" onclick="play()">Replay</button>
+        <br>
+        <button id="rfs-btn" onclick="refresh()">Refresh</button>
+        <script src="Tictactoe.js"></script>
+    </body>
+</html>
